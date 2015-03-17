@@ -42,11 +42,9 @@
 							</UL>
 						</DIV>
 					</LI>
-					<LI class=user_main_r><INPUT class="IbtnEnterCssClass"
-						id="IbtnEnter"
-						style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px"
-						onclick="onclickSub();" type=image
-						src="${ctx }/static/image/manage/user_botton.gif"></LI>
+					<LI class=user_main_r>
+					<INPUT class="IbtnEnterCssClass"	id="IbtnEnter" style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px"
+						 onclick= "onclickSub();" type=image	 src="${ctx }/static/image/manage/user_botton.gif"></LI>
 				</UL>
 			<DD id=user_bottom>
 				<!-- <UL>
@@ -60,8 +58,8 @@
 		</DL>
 	</DIV>
 	<DIV></DIV>
-	<script type="text/javascript" src="${ctx }/static/js/common/jquery.js"></script>
-	<script type="text/javascript">
+<script type="text/javascript" src="${ctx }/static/js/common/jquery.js"></script>
+<script type="text/javascript">
 	function onclickSub(){
 		var _userName = $("#userName").val();
 		var _password = $("#password").val();
